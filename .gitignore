@@ -1,0 +1,56 @@
+# Node.js dependencies (if you ever use npm/yarn for build tools or packages)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE/Editor directories and files (examples)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Operating System generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+logs/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Build output (if you add a build process later)
+# dist/
+# build/
+# out/
+
+# Environment variables file (NEVER commit sensitive data)
+# .env*
+
+# === Textures ===
+# Ignore specific image file types within the textures directory.
+# This keeps the 'textures/' directory itself potentially trackable (if it's empty
+# or contains other files like a README), but ignores the large image assets.
+textures/*.jpg
+textures/*.jpeg
+textures/*.png
+textures/*.gif
+textures/*.bmp
+textures/*.tif
+textures/*.tiff
+textures/*.webp
+# Add any other image formats you might use here
+
+# Optional: If you are absolutely sure you NEVER want to track anything
+# inside the textures folder (including potential subfolders or other file types),
+# you could use this simpler rule instead of listing extensions:
+# textures/
