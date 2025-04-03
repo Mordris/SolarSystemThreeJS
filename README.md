@@ -99,7 +99,7 @@ A web application built with Three.js that renders an interactive 3D model of ou
 
 ## File Structure
 
-your-project-folder/
+SolarSystem/
 ├── index.html # Main HTML structure
 ├── style.css # CSS styling for layout and info panel
 ├── main.js # Main application entry point, orchestrates modules

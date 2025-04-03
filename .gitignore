@@ -28,18 +28,7 @@ pids/
 *.seed
 *.pid.lock
 
-# Build output (if you add a build process later)
-# dist/
-# build/
-# out/
-
-# Environment variables file (NEVER commit sensitive data)
-# .env*
-
 # === Textures ===
-# Ignore specific image file types within the textures directory.
-# This keeps the 'textures/' directory itself potentially trackable (if it's empty
-# or contains other files like a README), but ignores the large image assets.
 textures/*.jpg
 textures/*.jpeg
 textures/*.png
@@ -48,9 +37,3 @@ textures/*.bmp
 textures/*.tif
 textures/*.tiff
 textures/*.webp
-# Add any other image formats you might use here
-
-# Optional: If you are absolutely sure you NEVER want to track anything
-# inside the textures folder (including potential subfolders or other file types),
-# you could use this simpler rule instead of listing extensions:
-# textures/
