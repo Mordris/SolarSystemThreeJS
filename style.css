@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  overflow: hidden; /* Prevent scrollbars */
+  background-color: #000;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+canvas {
+  display: block; /* Remove annoying space below canvas */
+}
+
+#info-panel {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  border-radius: 8px;
+  max-width: 300px; /* Adjust as needed */
+  max-height: 90vh; /* Prevent it from getting too tall */
+  overflow-y: auto; /* Add scroll if content exceeds height */
+}
+
+#info-panel h2 {
+  margin-top: 0;
+  color: #eee;
+}
+
+#info-panel p {
+  color: #ccc;
+  line-height: 1.4;
+}
+
+#info-panel ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+#info-panel li {
+  margin-bottom: 5px;
+  color: #bbb;
+}
+
+#info-panel li strong {
+  color: #ddd;
+}

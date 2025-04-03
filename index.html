@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive 3D Solar System</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="info-panel">
+      <h2 id="info-title">Solar System</h2>
+      <p id="info-description">
+        Welcome to this interactive 3D model of our solar system. Click or tap
+        on the Sun or a planet to learn more about it. Use your mouse/touch to
+        orbit, pan, and zoom.
+      </p>
+      <ul id="info-details">
+        <!-- Details will be populated by JavaScript -->
+      </ul>
+    </div>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.161.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.161.0/examples/jsm/"
+        }
+      }
+    </script>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
