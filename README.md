@@ -1,5 +1,3 @@
-Okay, here is a comprehensive README.md file for your project. You can copy and paste this content into a file named README.md in the root directory of your project.
-
 # Interactive 3D Solar System
 
 A web application built with Three.js that renders an interactive 3D model of our solar system. Users can explore the planets, dwarf planets, and the Sun, click on them to focus the camera, and view detailed information about the selected celestial body.
